@@ -73,7 +73,7 @@ summary = filtered_data[value_to_plot].describe().to_frame()
 st.table(summary.style.format("{:.2f}"))
 
 st.markdown("""
----
+----
 Built with ❤️ using Streamlit
 """)
 
